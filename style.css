@@ -157,3 +157,31 @@ h3{
   border-radius: 10px;
   padding: 5px 15px;
 }
+
+.about-section{
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 3rem;
+}
+
+.about-section img{
+  border-radius: 50%;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 12px;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 5px;
+}
+
+.skills-list li {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
