@@ -185,3 +185,35 @@ h3{
   border-radius: 20px;
   font-size: 0.9rem;
 }
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  
+}
+
+.contact-section{
+  padding: 60px;
+  
+}
+
+.contact-section input {
+  width: 250px;
+}
+
+.contact-section button {
+  width: 150px;
+  
+}
+
+.contact-section textarea{
+  height: 100px;
+  width: 250px;
+}
+
+.contact-section label{
+  display: block;
+  margin-bottom: 15px;
+  padding: 5px;
+}
