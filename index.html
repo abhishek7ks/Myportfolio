@@ -4,7 +4,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
   </head>
 
   <body>
@@ -18,10 +18,8 @@
         <li><a href="#About">About</a></li>
         <li><a href="#Projects">Projects</a></li>
         <li><a href="#Contacts">Contact</a></li>
-        <button id="theme" >🌗</button>
+        <button id="theme">🌗</button>
       </ul>
-
-      
     </nav>
 
     <section class="Main-Section">
@@ -57,13 +55,13 @@
       <h3>My Projects</h3>
       <div class="project-container">
         <div class="card">
-          <img src="https://picsum.photos/300/200"  alt="img"/>
+          <img src="https://picsum.photos/300/200" alt="img" />
           <h4>Portfolio</h4>
           <p>My personal portfolio made with html css and js</p>
           <button>Open</button>
         </div>
         <div class="card">
-          <img src="img/Todo-List png.png" alt="img"/>
+          <img src="img/Todo-List png.png" alt="img" />
           <h4>Todo App</h4>
           <p>Todo app made with html css and js</p>
           <button>Open</button>
@@ -78,22 +76,22 @@
     </section>
 
     <section class="contact-section">
-      <form>
+      <form id="Contact">
         <h4>Contact me</h4>
 
         <label>
           Name
-          <input type="text" />
+          <input type="text"  id="nameInput"/>
         </label>
 
         <label>
           Email
-          <input type="email" />
+          <input type="email"  id="emailinput"/>
         </label>
 
         <label>
           Message
-          <textarea></textarea>
+          <textarea id="messageinput"></textarea>
         </label>
 
         <button type="submit">Submit</button>
@@ -110,7 +108,7 @@
         <div class="div-common">
           <h5>Connect with me</h5>
 
-          <a  href="abhishekkashyap152002@gmail.com">gmail</a>
+          <a href="abhishekkashyap152002@gmail.com">gmail</a>
           <a href="https://github.com/abhishek7ks">Github</a>
         </div>
 
@@ -124,15 +122,6 @@
       <p class="copyright">All Rights Reserved &copy; Abhishek</p>
     </footer>
 
-
-    <script>
-
-let darktheme = document.getElementById("theme")
-
-darktheme.addEventListener("click",function(){
-  document.body.classList.toggle("dark")
-});
-
-    </script>
+    <script src="scripts.js"></script>
   </body>
 </html>
